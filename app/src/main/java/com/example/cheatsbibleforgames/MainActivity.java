@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ImageView imgpubg;
+    private ImageView imgcsgo;
     private ImageView vicecity;
     private ImageView imgsanandreas;
 
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        imgpubg = (ImageView) findViewById(R.id.imgpubg);
+        imgcsgo = (ImageView) findViewById(R.id.imgcsgo);
         imgsanandreas = (ImageView) findViewById(R.id.imgsanandreas);
         vicecity = (ImageView) findViewById(R.id.imgvicecity);
 

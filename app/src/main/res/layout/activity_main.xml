@@ -52,19 +52,21 @@
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/imgpubg"
-        android:layout_width="201dp"
-        android:layout_height="283dp"
+        android:id="@+id/imgcsgo"
+        android:layout_width="307dp"
+        android:layout_height="247dp"
+        android:layout_below="@+id/null"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="84dp"
-        android:layout_marginLeft="84dp"
-        android:layout_marginEnd="125dp"
-        android:layout_marginRight="125dp"
-        android:layout_marginBottom="117dp"
-        app:srcCompat="@drawable/pubg" />
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="187dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginBottom="195dp"
+        app:srcCompat="@drawable/csgo" />
 
 </RelativeLayout>
