@@ -23,6 +23,11 @@
 
         <activity android:name=".MainActivity"></activity>
 
+        <activity android:name=".Sanandreas"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".ex"></activity>
+
     </application>
 
 </manifest>
