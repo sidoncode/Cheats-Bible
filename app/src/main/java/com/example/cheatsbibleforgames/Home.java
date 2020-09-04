@@ -50,6 +50,25 @@ public class Home extends Fragment {
     }
 
     private TextView txtatangrybirds;
+    private TextView Angry_Birds_MOBILE,Angry_gran_run, AngryBirdsStarWarsII,
+            AgeofEmpiresTheWarchiefs,
+            AgeofEmpiresOnline,
+            AlanWake,
+            AlienShooterVengeance,
+            TheAmazingSpiderMan2,
+            AngryBirdsSpace,
+            AngryBirdsPC,
+            ARMAII,
+            AssassinsCreed,
+            AssassinCreedChroniclesChina,
+            AssassinCreedII
+            ,AssassinCreedIII
+            ,AssassinCreedSyndicate
+            ,AssassinCreedUnityDeadKings
+            ,AssassinCreedBrotherhood
+            ,AssassinCreedRevelations
+            ,AssassinCreedRogue
+            ,AssassinCreedUnity;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -71,6 +90,7 @@ public class Home extends Fragment {
         View v =inflater.inflate(R.layout.fragment_home, container, false);
 
         txtatangrybirds = v.findViewById(R.id.txtatangrybirds);
+        Angry_Birds_MOBILE = v.findViewById(R.id.txtag)
         txtatangrybirds.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
