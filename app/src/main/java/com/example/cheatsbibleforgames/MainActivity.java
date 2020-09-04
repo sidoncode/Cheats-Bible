@@ -1,75 +1,52 @@
 package com.example.cheatsbibleforgames;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
-import android.content.Intent;
+
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.Toast;
+import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity{
 
-    private ImageView imgcsgo;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationView;
+
+public class MainActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //setContentView(R.m);
 
-        imgcsgo = (ImageView)findViewById(R.id.imageView9);
+        BottomNavigationView btnNav = findViewById(R.id.bottomNavigationView);
+        btnNav.setOnNavigationItemSelectedListener(navlistener);
 
-        imgcsgo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent csgo = new Intent(v.getContext(),ex.class);
-                startActivity(csgo);
-                finish();
-
-            }
-        });
-
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.fragment_layout,new Home()).commit();
     }
+
+
+        private BottomNavigationView.OnNavigationItemSelectedListener navlistener = new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                //return false;
+                Fragment selectedFragment = null;
+                switch (item.getItemId()) {
+                    case R.id.item1:
+                        selectedFragment = new Home();
+                        break;
+                    case R.id.item2:
+                        selectedFragment = new About();
+
+                }
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragment_layout,selectedFragment).commit();
+                return true;
+            }
+        };
+
 
 
 }
-/**
-public class MainActivity extends AppCompatActivity {
-
-    private ImageView imgcsgo;
-    private ImageView vicecity;
-    private ImageView imgsanandreas;
-
-
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        imgcsgo = (ImageView) findViewById(R.id.imgcsgo);
-        imgsanandreas = (ImageView) findViewById(R.id.imgsanandreas);
-        vicecity  = (ImageView) findViewById(R.id.imgvicecity);
-
-        imgsanandreas.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //Toast.makeText(MainActivity.this,"clicked",Toast.LENGTH_SHORT).show();
-                imgsanandreas.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                       Intent intent  =  new Intent(getApplicationContext(),Sanandreas.class);
-                        Log.i("clicked","Clicked");
-                        startActivity(intent);
-                        finish();
-                    }
-                });
-
-            }
-        });
-    }
-
-
-}**/
