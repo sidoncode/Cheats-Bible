@@ -24,7 +24,7 @@
         <activity android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar"></activity>
 
-        <activity android:name=".Sanandreas"
+        <activity android:name=".AngryBirds"
             />
 
         <activity android:name=".ex"></activity>

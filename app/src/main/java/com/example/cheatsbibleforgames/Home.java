@@ -10,8 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link Home#newInstance} factory method to
@@ -51,8 +49,7 @@ public class Home extends Fragment {
         return fragment;
     }
 
-    private TextView txtview1;
-    private TextView txtatlanta;
+    private TextView txtatangrybirds;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -73,14 +70,12 @@ public class Home extends Fragment {
 
         View v =inflater.inflate(R.layout.fragment_home, container, false);
 
-        txtatlanta = v.findViewById(R.id.txtatlanta);
-        txtatlanta.setOnClickListener(new View.OnClickListener() {
+        txtatangrybirds = v.findViewById(R.id.txtatangrybirds);
+        txtatangrybirds.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(),Sanandreas.class);
+                Intent intent = new Intent(getActivity(), AngryBirds.class);
                 startActivity(intent);
-
-
             }
         });
 

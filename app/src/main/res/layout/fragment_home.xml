@@ -36,19 +36,204 @@
 
 
                 <TextView
-                    android:id="@+id/txtatlanta"
+                    android:id="@+id/txtatangrybirds"
                     android:layout_width="match_parent"
-                    android:layout_height="42dp"
-                    android:text="Atlanta"
+                    android:layout_height="102dp"
                     android:fontFamily="serif-monospace"
+                    android:text="Angry Birds MOBILE"
+                    android:textColor="@color/white"
+                    android:textSize="32sp" />
+
+                <TextView
+                    
+                    android:layout_width="match_parent"
+                    android:layout_height="102dp"
+                    android:text="Angry Birds Star Wars II"
+                    android:textColor="@color/white"
                     android:textSize="32sp"
-                    android:textColor="@color/white" />
+                    android:fontFamily="serif-monospace"
+                    />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="102dp"
+                    android:text="Age of Empires Online"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:fontFamily="serif-monospace"/>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="102dp"
+                    android:text="Alan Wake"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:fontFamily="serif-monospace"/>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="102dp"
+                    android:text="Angry Gran Run"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:fontFamily="serif-monospace"/>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="102dp"
+                    android:text="Alien Shooter: Vengeance"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:fontFamily="serif-monospace"/>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="102dp"
+                    android:text="The Amazing Spider-Man 2"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:fontFamily="serif-monospace"/>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="102dp"
+                    android:text="Angry Birds Space"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:fontFamily="serif-monospace"/>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="102dp"
+                    android:text="Angry Birds PC"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:fontFamily="serif-monospace"/>
                 <TextView
 
                     android:layout_width="match_parent"
                     android:layout_height="42dp"
-                    android:text="Atlanta"
-                    android:textColor="@color/white" />
+                    android:text="ARMA II"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:fontFamily="serif-monospace"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="102dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Assassin's Creed"
+                    android:textColor="@color/white"
+                    android:textSize="32sp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="102dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Assassin's Creed Chronicles: China"
+                    android:textColor="@color/white"
+                    android:textSize="32sp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif-monospace"
+                    android:text="Assassin's Creed II"
+                    android:textColor="@color/white"
+                    android:textSize="32sp" />
+                <androidx.legacy.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                </androidx.legacy.widget.Space>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="102dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Assassin's Creed III"
+                    android:textColor="@color/white"
+                    android:textSize="32sp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="89dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Assassin's Creed Syndicate"
+                    android:textColor="@color/white"
+                    android:textSize="32sp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="105dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Assassin's Creed Unity: Dead Kings"
+                    android:textColor="@color/white"
+                    android:textSize="32sp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="102dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Assassin's Creed: Brotherhood"
+                    android:textColor="@color/white"
+                    android:textSize="32sp" />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="102dp"
+                    android:text="Assassin's Creed: Revelations"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:fontFamily="serif-monospace"/>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Assassin's Creed: Rogue"
+                    android:textColor="@color/white"
+                    android:textSize="32sp" />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="102dp"
+                    android:text="Assassin's Creed: Unity"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:fontFamily="serif-monospace"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text='Starting With "B"'
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.171"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.115" />
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:text="Batman Vengeance"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:fontFamily="serif-monospace"/>
+
+
 
 
             </LinearLayout>
