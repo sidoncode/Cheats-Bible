@@ -11,6 +11,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link Home#newInstance} factory method to
@@ -70,6 +74,8 @@ public class Home extends Fragment {
             ,AssassinCreedRogue
             ,AssassinCreedUnity,BatmanVengeance;
 
+
+        private AdView adview1;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -106,6 +112,15 @@ public class Home extends Fragment {
         AssassinCreedRogue = v.findViewById(R.id.AssassinCreedRogue);
         AssassinCreedUnity  = v.findViewById(R.id.AssassinCreedUnity);
         BatmanVengeance = v.findViewById(R.id.BatmanVengeance);
+
+// ad view//
+        //ad id//
+        adview1 = v.findViewById(R.id.ad_view1);
+        MobileAds.initialize(getActivity(),"ca-app-pub-9094130848994954/4501394393");
+        AdRequest adRequest= new AdRequest.Builder().build();
+        adview1.loadAd(adRequest);
+
+
 
         // onclick listeners //
 
@@ -231,6 +246,23 @@ public class Home extends Fragment {
             }
         });
 
+        AssassinCreedUnityDeadKings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent AssassinCreedUnityDeadKings = new Intent(getActivity(),AssassinCreedUnityDeadKings.class);
+                getActivity().startActivity(AssassinCreedUnityDeadKings);
+
+            }
+        });
+
+        AssassinCreedBrotherhood.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent AssassinCreedBrotherhood = new Intent(getActivity(),AssassinCreedBrotherhood.class);
+                getActivity().startActivity(AssassinCreedBrotherhood);
+
+            }
+        });
 
         return  v;
 

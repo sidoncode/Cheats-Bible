@@ -1,0 +1,166 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssassinCreedBrotherhood">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Unlocking all Outfits:"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Assassin’s Creed Unity Dead Kings DLC offers you 4 costumes. Below is a complete list of all the costumes and how you can unlock them.
+
+Raider Outfit: Unlock this outfit during the mission ‘Under Lock And Key’. You will be able unlock this by opening the initiate’s chest which is in the same room where you will find the Napoleon’s chest.
+
+Napoleon’s Artillery Outfit: Collect every Napolean Bicorn collectible to unlock this outfit.
+
+Iron Mask Outfit: You will need to complete the “The Eyes of the King” mission. After you have killed the Iron Mask loyalists, steal 3 keys that will open the locked the door. There you will find Louis XIV’s journal. Read it to unlock the outfit.
+
+Guard of Franciade Outfit: Go to Louis IX’s underground tomb and behind his burial chamber you will find a initiate’s chest. Open it and you will unlock this outfit."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingTop="3dp"
+                android:layout_height="39dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Unlimited Creed Points Glitch/Cheat:"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="A Youtube user  Zero Creed has found a way to earn unlimited creed points. This may or not be applicable for Assassin’s Creed Unity Dead Kings DLC but regardless we have decided to include it. To do this you need to first of all blend into some activity, pause the game, and then start a new mission. Once you come across enemies, they won’t able to see you allowing you to kill them and earn almost unlimited creed points. We haven’t tested this cheat but several users have confirmed that it’s working for them."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Defender of Franciade:"
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Complete Suger’s Legacy and recover the Eagle of Suger. Refer the guide above."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Liberator:"
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Free every outpost in Franciade. The DLC has 3 outposts which can be freed by killing each outpost’s 3 leaders."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Reign of Terror:"
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Kill 5 enemies at the same time with a Guillotine Gun. Once you get hold of the Guillotine Gun, a tutorial will kick in which will give you the opportunity to kill a lot of enemies. This is your chance to kill 5 of them at the same time."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:text="Freedom Fighter:"
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Kill 15 Raider leaders. This is simple enough and can be achieved easily during normal playthrough."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Hydrogen Bonded:"
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Achieve 100% synchronization in Dead Kings. You need to complete each and every objective of every mission to achieve this trophy/achievement."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Fraternité!"
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Complete the Heist and the Co-op mission in Dead Kings at least once. Provided you had a higher level from the main game, completing Heist and Co-op missions in the DLC should be fairly easy. These missions can be found in the northern section of the map."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
