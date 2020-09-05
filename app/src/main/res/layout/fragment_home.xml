@@ -36,7 +36,7 @@
 
 
                 <TextView
-                    android:id="@+id/txtatangrybirds"
+                    android:id="@+id/AngryBirdsMOBILE"
                     android:layout_width="match_parent"
                     android:layout_height="102dp"
                     android:fontFamily="serif-monospace"
@@ -45,7 +45,7 @@
                     android:textSize="32sp" />
 
                 <TextView
-                    android:id="@+id/txtagbirdsw2"
+                    android:id="@+id/AngryBirdsStarWarsII"
                     android:layout_width="match_parent"
                     android:layout_height="102dp"
                     android:text="Angry Birds Star Wars II"
@@ -54,7 +54,7 @@
                     android:fontFamily="serif-monospace"
                     />
                 <TextView
-                    android:id="@+id/txtaeo"
+                    android:id="@+id/AgeofEmpiresOnline"
                     android:layout_width="match_parent"
                     android:layout_height="102dp"
                     android:text="Age of Empires Online"
@@ -62,7 +62,7 @@
                     android:textSize="32sp"
                     android:fontFamily="serif-monospace"/>
                 <TextView
-                    android:id="@+id/txtaw"
+                    android:id="@+id/AlanWake"
                     android:layout_width="match_parent"
                     android:layout_height="102dp"
                     android:text="Alan Wake"
@@ -70,7 +70,7 @@
                     android:textSize="32sp"
                     android:fontFamily="serif-monospace"/>
                 <TextView
-                    android:id="@+id/txtagr"
+                    android:id="@+id/Angry_gran_run"
                     android:layout_width="match_parent"
                     android:layout_height="102dp"
                     android:text="Angry Gran Run"
@@ -78,7 +78,7 @@
                     android:textSize="32sp"
                     android:fontFamily="serif-monospace"/>
                 <TextView
-                    android:id="@+id/asv"
+                    android:id="@+id/AlienShooterVengeance"
                     android:layout_width="match_parent"
                     android:layout_height="102dp"
                     android:text="Alien Shooter: Vengeance"
@@ -86,7 +86,7 @@
                     android:textSize="32sp"
                     android:fontFamily="serif-monospace"/>
                 <TextView
-                    android:id="@+id/txtasm2"
+                    android:id="@+id/TheAmazingSpiderMan2"
                     android:layout_width="match_parent"
                     android:layout_height="102dp"
                     android:text="The Amazing Spider-Man 2"
@@ -94,7 +94,7 @@
                     android:textSize="32sp"
                     android:fontFamily="serif-monospace"/>
                 <TextView
-                    android:id="@+id/txtabs"
+                    android:id="@+id/AngryBirdsSpace"
                     android:layout_width="match_parent"
                     android:layout_height="102dp"
                     android:text="Angry Birds Space"
@@ -102,7 +102,7 @@
                     android:textSize="32sp"
                     android:fontFamily="serif-monospace"/>
                 <TextView
-                    android:id="@+id/txtabpc"
+                    android:id="@+id/AngryBirdsPC"
                     android:layout_width="match_parent"
                     android:layout_height="102dp"
                     android:text="Angry Birds PC"
@@ -110,7 +110,7 @@
                     android:textSize="32sp"
                     android:fontFamily="serif-monospace"/>
                 <TextView
-                    android:id="@+id/txtarma"
+                    android:id="@+id/ARMAII"
                     android:layout_width="match_parent"
                     android:layout_height="42dp"
                     android:text="ARMA II"
@@ -119,7 +119,7 @@
                     android:fontFamily="serif-monospace"/>
 
                 <TextView
-                    android:id="@+id/txtac1"
+                    android:id="@+id/AssassinsCreed"
                     android:layout_width="match_parent"
                     android:layout_height="102dp"
                     android:fontFamily="serif-monospace"
@@ -128,7 +128,7 @@
                     android:textSize="32sp" />
 
                 <TextView
-                    android:id="@+id/acchina"
+                    android:id="@+id/AssassinCreedChroniclesChina"
                     android:layout_width="match_parent"
                     android:layout_height="102dp"
                     android:fontFamily="serif-monospace"
@@ -137,7 +137,7 @@
                     android:textSize="32sp" />
 
                 <TextView
-                    android:id="@+id/actwo"
+                    android:id="@+id/AssassinCreedII"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="serif-monospace"
@@ -146,7 +146,7 @@
                     android:textSize="32sp" />
 
                 <TextView
-                    android:id="@+id/txtacthree"
+                    android:id="@+id/AssassinCreedIII"
                     android:layout_width="match_parent"
                     android:layout_height="102dp"
                     android:fontFamily="serif-monospace"
@@ -155,7 +155,7 @@
                     android:textSize="32sp" />
 
                 <TextView
-                    android:id="@+id/txtacsyn"
+                    android:id="@+id/AssassinCreedSyndicate"
                     android:layout_width="match_parent"
                     android:layout_height="89dp"
                     android:fontFamily="serif-monospace"
@@ -164,7 +164,7 @@
                     android:textSize="32sp" />
 
                 <TextView
-                    android:id="@+id/acunityd"
+                    android:id="@+id/AssassinCreedUnityDeadKings"
                     android:layout_width="match_parent"
                     android:layout_height="105dp"
                     android:fontFamily="serif-monospace"
@@ -173,7 +173,7 @@
                     android:textSize="32sp" />
 
                 <TextView
-                    android:id="@+id/txtacbro"
+                    android:id="@+id/AssassinCreedBrotherhood"
                     android:layout_width="match_parent"
                     android:layout_height="102dp"
                     android:fontFamily="serif-monospace"
@@ -181,7 +181,7 @@
                     android:textColor="@color/white"
                     android:textSize="32sp" />
                 <TextView
-                    android:id="@+id/acrev"
+                    android:id="@+id/AssassinCreedRevelations"
                     android:layout_width="match_parent"
                     android:layout_height="102dp"
                     android:text="Assassin's Creed: Revelations"
@@ -190,21 +190,23 @@
                     android:fontFamily="serif-monospace"/>
 
                 <TextView
-                    android:id="@+id/acrog"
+                    android:id="@+id/AssassinCreedRogue"
                     android:layout_width="match_parent"
                     android:layout_height="84dp"
                     android:fontFamily="serif-monospace"
                     android:text="Assassin's Creed: Rogue"
                     android:textColor="@color/white"
                     android:textSize="32sp" />
+
                 <TextView
-                    android:id="@+id/acunity"
+                    android:id="@+id/AssassinCreedUnity"
                     android:layout_width="match_parent"
                     android:layout_height="102dp"
                     android:text="Assassin's Creed: Unity"
                     android:textColor="@color/white"
                     android:textSize="32sp"
                     android:fontFamily="serif-monospace"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -218,17 +220,15 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.115" />
-                <TextView
 
+                <TextView
+                    android:id="@+id/BatmanVengeance"
                     android:layout_width="match_parent"
                     android:layout_height="42dp"
                     android:text="Batman Vengeance"
                     android:textColor="@color/white"
                     android:textSize="32sp"
                     android:fontFamily="serif-monospace"/>
-
-
-
 
             </LinearLayout>
 

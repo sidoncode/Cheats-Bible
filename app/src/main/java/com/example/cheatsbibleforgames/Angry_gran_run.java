@@ -4,14 +4,12 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-
-public class AngryBirds extends AppCompatActivity {
+public class Angry_gran_run extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_angrybirds_mobile);
-
+        setContentView(R.layout.activity_angry_gran_run);
 
     }
 }

@@ -49,9 +49,8 @@ public class Home extends Fragment {
         return fragment;
     }
 
-    private TextView txtatangrybirds;
+
     private TextView Angry_Birds_MOBILE,Angry_gran_run, AngryBirdsStarWarsII,
-            AgeofEmpiresTheWarchiefs,
             AgeofEmpiresOnline,
             AlanWake,
             AlienShooterVengeance,
@@ -68,7 +67,7 @@ public class Home extends Fragment {
             ,AssassinCreedBrotherhood
             ,AssassinCreedRevelations
             ,AssassinCreedRogue
-            ,AssassinCreedUnity;
+            ,AssassinCreedUnity,BatmanVengeance;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -83,21 +82,50 @@ public class Home extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-
-
-
-
         View v =inflater.inflate(R.layout.fragment_home, container, false);
 
-        txtatangrybirds = v.findViewById(R.id.txtatangrybirds);
-        Angry_Birds_MOBILE = v.findViewById(R.id.txtag)
-        txtatangrybirds.setOnClickListener(new View.OnClickListener() {
+        Angry_Birds_MOBILE = v.findViewById(R.id.AngryBirdsMOBILE);
+        Angry_gran_run = v.findViewById(R.id.Angry_gran_run);
+        AngryBirdsStarWarsII = v.findViewById(R.id.AngryBirdsStarWarsII);
+        AgeofEmpiresOnline = v.findViewById(R.id.AgeofEmpiresOnline);
+        AlanWake = v.findViewById(R.id.AlanWake);
+        AlienShooterVengeance = v.findViewById(R.id.AlienShooterVengeance);
+        TheAmazingSpiderMan2 = v.findViewById(R.id.TheAmazingSpiderMan2);
+        AngryBirdsSpace = v.findViewById(R.id.AngryBirdsSpace);
+        AngryBirdsPC = v.findViewById(R.id.AngryBirdsPC);
+        ARMAII = v.findViewById(R.id.ARMAII);
+        AssassinsCreed = v.findViewById(R.id.AssassinsCreed);
+        AssassinCreedChroniclesChina= v.findViewById(R.id.AssassinCreedChroniclesChina);
+        AssassinCreedII = v.findViewById(R.id.AssassinCreedII);
+        AssassinCreedIII = v.findViewById(R.id.AssassinCreedIII);
+        AssassinCreedSyndicate = v.findViewById(R.id.AssassinCreedSyndicate);
+        AssassinCreedUnityDeadKings = v.findViewById(R.id.AssassinCreedUnityDeadKings);
+        AssassinCreedBrotherhood = v.findViewById(R.id.AssassinCreedBrotherhood);
+        AssassinCreedRevelations = v.findViewById(R.id.AssassinCreedRevelations);
+        AssassinCreedRogue = v.findViewById(R.id.AssassinCreedRogue);
+        AssassinCreedUnity  = v.findViewById(R.id.AssassinCreedUnity);
+        BatmanVengeance = v.findViewById(R.id.BatmanVengeance);
+
+        // onclick listeners //
+        Angry_Birds_MOBILE.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), AngryBirds.class);
-                startActivity(intent);
+                Intent Angry_Birds_MOBILE  = new Intent(getActivity(),AngryBirds.class);
+                v.getContext().startActivity(Angry_Birds_MOBILE);
+                //getActivity().finish();
             }
         });
+
+        Angry_gran_run.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Angry_gran_run = new Intent(getActivity(),Angry_gran_run.class);
+                v.getContext().startActivity(Angry_gran_run);
+
+            }
+        });
+
+
 
         return  v;
 
