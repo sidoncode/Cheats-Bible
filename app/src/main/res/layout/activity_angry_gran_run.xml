@@ -1,6 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Angry_gran_run"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:text="Get The Golden Football"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingLeft="10dp"
+        android:text="Go to 13-12 and throw the white bird backwards and drop the egg at at the small point."
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:text="Unlimited Mighty Eagle!!!"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:paddingLeft="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="First, use the mighty eagle. Then, exit the game and change the clock on your phone ahead 1 hour. It will say the mighty eagle is ready for use."
+        android:textStyle="bold" />
+
+
+</LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

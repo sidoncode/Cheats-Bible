@@ -1,0 +1,127 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlienShooterVengeance"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            android:text="All Skilled Unlocked"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="10dp"
+            android:text="-type in 'stgod' by your keyboard"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            android:text="Invicible!"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:paddingLeft="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="-type in 'st2' by your keyboard (not the numpad)"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            android:text="100k Money!"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="10dp"
+            android:layout_height="42dp"
+            android:paddingLeft="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="-type in 'cheatm' by your keyboard"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            android:text="Fast Run!"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:paddingLeft="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="-type in 'cheats' in your keyboard"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            android:text="Win A Mission"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:paddingLeft="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="-type in 'stwnn' in your keyboard"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            android:text="Fast Weapon Firing (Except Shotgun)!"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:paddingLeft="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="-type in 'cheatw' in your keyboard"
+            android:textStyle="bold" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

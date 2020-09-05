@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -121,6 +122,59 @@ public class Home extends Fragment {
             public void onClick(View v) {
                 Intent Angry_gran_run = new Intent(getActivity(),Angry_gran_run.class);
                 v.getContext().startActivity(Angry_gran_run);
+
+            }
+        });
+
+        AngryBirdsStarWarsII.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(),"Comming Soon..,",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
+        AgeofEmpiresOnline.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(),"Comming Soon...",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        AlanWake.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(),"Comming Soon...",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        AlienShooterVengeance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent AlienShooterVengeance = new Intent(v.getContext(),AlienShooterVengeance.class);
+                v.getContext().startActivity(AlienShooterVengeance);
+            }
+        });
+
+        TheAmazingSpiderMan2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(),"Comming Soon!...",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        AngryBirdsSpace.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(get`)
+                Toast.makeText(getActivity(),"Comming Soon...",Toast.LENGTH_SHORT).show();
+            }
+        });
+        AngryBirdsPC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent AngryBirdsPC =  new Intent(getActivity(),AngryBirdsPC.class);
+                getActivity().startActivity(AngryBirdsPC);
 
             }
         });
