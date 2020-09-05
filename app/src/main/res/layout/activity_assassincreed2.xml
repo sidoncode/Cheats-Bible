@@ -1,0 +1,105 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssassinCreedII">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Decrease Noteriety"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="If you're close to getting a 'Notorious' rating, go to a Herald and bribe him. After you bribe him just steal the money back."
+                android:textSize="22sp"
+                android:textStyle="normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Get Your Spear And Axe Back"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="When countering enemies with the axe or spear, Ezio will lose the weapon as it will be impaled or buried in the target. You can easily reclaim the weapon by picking up the corpse and dropping it. The weapon embedded in the dead body will pop back out for re-use."
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Easter Egg "
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="From The Deep In Santa Maria Delle Visitazione, in the Assassin's Tomb, you'll come across a large flooded room just before one of the Armor of Altair seals. Pull the lever and peer into the water. Wait a minute or so and you'll see a shadow below. Pull the lever again and peer into the murky depths once more and a tentacle will reach out to grab (and miss) Ezio."
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Air Walk Glitch"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="You must have the throwing knives equipped for this. Hold RT + X and run off of a roof. You will run in a straight line in mid air! Switch weapons or release the buttons to fall"
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Defeating William of Montferrat in Acre"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="After the guards (or most of them) leave William, drop down from the castle, and slay William. Then, 'de-target' or deselect, and run up into the castle buildings and battlement to get away. This is the fastest way of completing the mission."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

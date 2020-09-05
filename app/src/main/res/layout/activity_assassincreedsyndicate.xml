@@ -1,0 +1,85 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssassinCreedSyndicate"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Unlimited and Infinite Money:"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Completely conquer/liberate all of London. You don’t have to worry about the races, the fight clubs, and the cargo hijacks."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Made of Steel (Unlimited health) : Collect Pivot - 'Iota'"
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Complete the Templar Hunt and Gang Stronghold activities (you can see how to complete them earlier in this guide). As a bonus, you earn £2000-£3000 upon completion of each individual one."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Recruit (Infinite Recruit Tokens) : Collect Pivot - 'Omicron'"
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Use all the money you’ve gathered so far by buying all the Gang Upgrades in the Main Menu. Make sure to invest everything in the “Swindler” section, for the “Ale Heist” (3 upgrades) and especially the “Pub Investor” (5 upgrades). Ale Heist alone nets you £500 every thirty minutes, which stacks as you get all eight money related upgrades, to £130,000 for every three hours the game is on!"
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    <!--
+
+
+
+
+    With just a little effort, it is possible to completely trivialize the economy of London in game. It is possible, by investing just a little time and effort into the game, to earn so much money that you will never be left wanting. This is not a cheat- this is just being very clever about things, and making sure you understand and exploit its systems.
+
+    Just follow the steps below, and all your economic woes will be a thing of the past:
+
+
+    -->

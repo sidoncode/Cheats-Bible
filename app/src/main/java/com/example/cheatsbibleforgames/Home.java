@@ -108,6 +108,7 @@ public class Home extends Fragment {
         BatmanVengeance = v.findViewById(R.id.BatmanVengeance);
 
         // onclick listeners //
+
         Angry_Birds_MOBILE.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -170,6 +171,7 @@ public class Home extends Fragment {
                 Toast.makeText(getActivity(),"Comming Soon...",Toast.LENGTH_SHORT).show();
             }
         });
+
         AngryBirdsPC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -179,6 +181,55 @@ public class Home extends Fragment {
             }
         });
 
+        ARMAII.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(),"Commingsoon",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        AssassinsCreed.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent AssassinsCreed = new Intent(getActivity(),AssassinsCreed.class);
+                getActivity().startActivity(AssassinsCreed);
+
+            }
+        });
+
+
+        AssassinCreedChroniclesChina.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(),"Comming Soon!..",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
+        AssassinCreedII.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent AssassinCreedII = new Intent(getActivity(),AssassinCreedII.class);
+                getActivity().startActivity(AssassinCreedII);
+            }
+        });
+
+        AssassinCreedIII.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent AssassinCreedIII = new Intent(getActivity(),AssassinCreedIII.class);
+                getActivity().startActivity(AssassinCreedIII);
+            }
+        });
+
+        AssassinCreedSyndicate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent AssassinCreedSyndicate = new Intent(getActivity(),AssassinCreedSyndicate.class);
+                getActivity().startActivity(AssassinCreedSyndicate);
+
+            }
+        });
 
 
         return  v;

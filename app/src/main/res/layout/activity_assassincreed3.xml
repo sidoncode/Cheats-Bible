@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AngryBirdsPC"
+    tools:context=".AssassinCreedIII"
     >
     <ScrollView
         android:layout_width="match_parent"
@@ -16,149 +16,185 @@
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Sound Board - Get 3 stars in every level worlds 1-3"
+                android:text="Infinite Ammo : Collect Pivot - 'Epsilon'"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Golden Egg Level 1 - Get 3 stars in every level worlds 4-5"
+                android:text="Killing Spree (Possible to assassinate enemies during open combat) : Collect Pivot - 'Theta'"
                 android:textSize="22sp"
                 android:textStyle="bold" />
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Golden Egg Level 2 - In the level select screen, tap the sun
-"
+                android:text="Made of Steel (Unlimited health) : Collect Pivot - 'Iota'"
                 android:textSize="22sp"
                 android:textStyle="bold" />
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Golden Egg Level 3 - Watch the credits, tap the Golden Egg at the very end"
+                android:text="Ninja (Guard detection and investigation is turned off) : Collect Pivot - 'Lambda'"
                 android:textSize="22sp"
                 android:textStyle="bold" />
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Golden Egg Level 4 - Within any level, go to the help screen. Tap the egg at the end"
+                android:text="Recruit (Infinite Recruit Tokens) : Collect Pivot - 'Omicron'"
                 android:textSize="22sp"
                 android:textStyle="bold" />
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Golden Egg Level 5 - In Level 1-8, tap the unreachable chest"
+                android:text="Season Changer (Ability to switch between summer and winter) : Collect Pivot - 'Tau'"
                 android:textSize="22sp"
                 android:textStyle="bold" />
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Golden Egg Level 6 - In Level 2-2, break the beach ball"
+                android:text="Semi-Automatic (No reload times) : Collect Pivot - 'Kappa'"
                 android:textSize="22sp"
                 android:textStyle="bold" />
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Golden Egg Level 7 - In Level 4-7,tap the egg at the very top right of the map (zoom out)"
+                android:text="Sun and Moon (Ability to set day/night) : Collect Pivot - 'Eta'"
                 android:textSize="22sp"
                 android:textStyle="bold" />
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Golden Egg Level 8 - In Level 5-19, it's hiding on the top right of the left tower"
+                android:text="Thunder Kill (Lightning strikes every time you make a kill) : Collect Pivot - 'Upsilon'"
                 android:textSize="22sp"
                 android:textStyle="bold" />
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Golden Egg Level 9 - In Level 6-14, pop the yellow balloon"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
-
-                android:layout_width="match_parent"
-                android:layout_height="102dp"
-                android:fontFamily="sans-serif-condensed"
-                android:textAlignment="center"
-                android:text="Golden Egg 10 - In level 6-14 bust the yellow balloon in the lower right corner"
+                android:text="Weather Man (Ability to set the weather) : Collect Pivot - 'Sigma'"
                 android:textSize="22sp"
                 android:textStyle="bold" />
             <TextView
 
                 android:layout_width="match_parent"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Golden Egg 11 - In theme 8's level page, brush the screen right to left to reveal a golden egg"
+                android:text="Achilles' Originial Outfit : Complete the Achilles' Painting mission (Unlocked in Manor)"
                 android:textSize="22sp"
                 android:textStyle="bold" />
             <TextView
 
                 android:layout_width="match_parent"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Golden Egg 12 - Get 3 stars for every level in Danger Above"
+                android:text="Altair's Outfit : Complete all main missions with all Optional Objectives (Unlocked in Manor)"
                 android:textSize="22sp"
                 android:textStyle="bold" />
             <TextView
 
                 android:layout_width="match_parent"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Golden Egg 13 - In level 8-15 break the boxes in the far left corner"
+                android:text="Baltimore Outfit : Start of Sequence 09 (Unlocked in shops)"
                 android:textSize="22sp"
                 android:textStyle="bold" />
             <TextView
 
                 android:layout_width="match_parent"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Golden Egg 14 - In level 9-14 fire the boomerang bird at the hat on the far right side of the screen on the small cliff."
+                android:text="Boston Outfit : Start of Sequence 06 (Unlocked in shops)"
                 android:textSize="22sp"
                 android:textStyle="bold" />
             <TextView
 
                 android:layout_width="match_parent"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Golden Egg 15 - Bust the rubber duck in the bottom left side In 10-3"
+                android:text="Captain Kidd's Outfit : Complete the Oak Island Naval Location (Unlocked in Manor)"
                 android:textSize="22sp"
                 android:textStyle="bold" />
             <TextView
 
                 android:layout_width="match_parent"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Golden Egg 16 - Get three stars on all levels in the Big Setup"
+                android:text="Charleston Outfit : Start of Sequence 06 (Unlocked in shops)"
                 android:textSize="22sp"
                 android:textStyle="bold" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Ezio Outfit : Through Uplay (Unlocked in Manor)"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Jamestown Outfit : Start of Sequence 06 (Unlocked in shops)"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Kanienkeha:ka Outfit : Collect all Feathers (Unlocked in Manor)"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="New York Outfit : Start of Sequence 09 (Unlocked in shops)"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Philidelphia Outfit : Start of Sequence 09 (Unlocked in shops)"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
 
         </LinearLayout>
 

@@ -1,0 +1,133 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssassinsCreed">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Completion Bonus"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Successfully complete the game. When the Memory Blocks are played again in Story mode, you can kill anyone without penalty. Additionally, you will be able to use Eagle Vision at any time regardless of Synchronization levels inside of the Animus."
+                android:textSize="22sp"
+                android:textStyle="normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Easier game"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="
+
+To lower the time needed to complete the game and decrease the difficulty of each major assassination, do the following in order (with the exception of Masyaf):
+
+    Visit the Assassin's Guild.
+
+    Scan the city by first climbing all of the view points.
+
+    Rescue all the citizens from the thugs. You will need the help after a major assassination.
+
+    Successfully complete all of the informant's missions (to get all the valuable information you can).
+
+    Pickpocket the shysters in all of the pickpocket missions (for information to the Guild).
+
+    Once all of these are completed, go back to the Assassin's Guild to start the major assassination mission.
+"
+                android:textSize="22sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Unlocking doors"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="When you go to bed after Memory Block 2, you will notice your closet door is open. Press any button to get a piece of paper Desmond notes as a code. The code will unlock your bedroom door, which will allow you to be able to go out as often as you like after you go to bed, as well as to open the meeting room area. You can also pick up various items to unlock Lucy's password.Successfully complete the game, and allow the credits to end. You will be given the access code for the computer attached to the Animus. Hack the computer to access an inbox, outbox, and deleted message. Look at the inbox and choose the email about the conference room. You can go to the conference room and access it via the keypad."
+                android:textSize="22sp"
+                 />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Defeating Templars"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="When initiating combat against a Templar, lock on to him. Then, quickly equip the hidden blade. Wait for him to attack you so that you can counter attack, killing him in one blow. This is better than the sword fight. If you counter with the sword, you will only knock him down and not kill the Templar."
+                android:textSize="22sp"
+                 />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Defeating William of Montferrat in Acre"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="After the guards (or most of them) leave William, drop down from the castle, and slay William. Then, 'de-target' or deselect, and run up into the castle buildings and battlement to get away. This is the fastest way of completing the mission."
+                android:textSize="22sp"
+                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Transformers reference"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Go to the southwestern-most vigilantes in the poor district of Damascus. On one of the buildings around them, you should see an outcropping in the wall, climb on it to see it looks exactly like G1 Optimus Prime in vehicle mode. Note: There may be more than one outcropping in the area, so look carefully. If you lose sight of the vigilantes, you have gone too far."
+                android:textSize="22sp"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
