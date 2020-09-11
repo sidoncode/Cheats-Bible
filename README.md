@@ -25,3 +25,9 @@
 
 #4
 ![App1](https://user-images.githubusercontent.com/40432616/92407212-90ae1d00-f157-11ea-8051-5f65775bacb8.jpg)
+
+
+
+
+### PLAY CONSOLE SETTINGS
+
