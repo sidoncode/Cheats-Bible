@@ -7,6 +7,8 @@
 
 ### ADMOB SETTINGS
 
+## Adjust the caregory of admob setting of displaying ads. in the mobile application
+
 
 
 
