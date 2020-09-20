@@ -255,10 +255,55 @@
                     android:textSize="32sp"
                     android:fontFamily="serif-monospace"/>
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text='Starting With "D"'
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.171"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.115" />
+                <TextView
                     android:id="@+id/Dmcry5"
                     android:layout_width="match_parent"
                     android:layout_height="42dp"
                     android:text="Devil May Cry 5"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:fontFamily="serif-monospace"/>
+
+                <TextView
+                    android:id="@+id/Dmcry4"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:text="Devil May Cry 4"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:fontFamily="serif-monospace"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text='Starting With "F"'
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.171"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.115" />
+
+                <TextView
+                    android:id="@+id/fc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:text="Far Cry 2"
                     android:textColor="@color/white"
                     android:textSize="32sp"
                     android:fontFamily="serif-monospace"/>

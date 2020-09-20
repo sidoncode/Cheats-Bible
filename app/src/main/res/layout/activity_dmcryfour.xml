@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Dmcry4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Alternate ending sequence"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Successfully complete the game. Then during the credits mini-game, protect Kyrie for over 90 seconds to view the rest of the ending sequence featuring Dante, Trish, and Lady."
+                android:textSize="22sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Keeping Dreadnaught armor"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="This trick requires a fully leveled-up Royal Guard style. You must posses the Dreadnaught ability. Dreadnaught is performed by holding R1 + Left Analog-stick Away + Circle. This ability encases you in invulnerable armor, based upon how full your Royal gauge is. You can still perform Dreadnaught with an empty Royal gauge and get about five seconds of invulnerability. You will also suffer limited movement during a Dreadnaught. Perform Dreadnaught, and at the precise moment it runs out, switch your melee weapon (R2). If done quickly enough, you will keep the Dreadnaught armor and be able to move normally. Note: You will still be able to fully take damage."
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Heaven Or Hell mode"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="From The Deep In Santa Maria Delle Visitazione, in the Assassin's Tomb, you'll come across a large flooded room just before one of the Armor of Altair seals. Pull the lever and peer into the water. Wait a minute or so and you'll see a shadow below. Pull the lever again and peer into the murky depths once more and a tentacle will reach out to grab (and miss) Ezio."
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Easy Red Orbs in Mission 7: The She-Viper"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Use the following trick to get approximately 4,300 Red Orbs in about twenty seconds. At the start of the mission, destroy the rocks to your left. Enter the tunnel, and destroy the rocks. You will see the big red crystal near the Secret Mission. In order to get the most Orbs, start with the Stinger, then immediately activate Devil Trigger mode, and quickly mash away. Then, press Start, select Systems, and choose Retry Mission. This is the easiest way to get a lot of Red Orbs in a short amount of time."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Defeating Berial"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Use Grim Grip to reel yourself close to his head, and attack with your sword. Once the combos are done, use Grim Grip while still in the air. When his flames are gone, jump up to his head. Grab his head with the Devil Bringer, then once he lands from that, use Devil Bringer again to throw and punch him. Then, run a short distance away because he will release an explosion around him. Make sure to pick up Green Orbs from the destroyed buildings, and roll to avoid his flame geysers and sword attack. Continue attacking this way, and use your Charge Shot to defeat him in under a minute."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Defeating Blitzes"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Use the following trick to defeat a Blitz with Nero. To lower the Blitz electricity shield quickly, use charged pistol shots with Devil Trigger mode activated. Charge a shot. Activate Devil Trigger mode. Release the shot, maybe a few more. Turn off Devil Trigger mode, and repeat. This will quickly give you Super Smokin Stylish before he has even dropped his shield. This will work even with a level 1 Charge Shot, but is much easier if you have level 3. Once his shield is gone, use Devil Trigger mode again. Use the Devil Bringer to devastate him. Three throws should be enough to send him into red mode. Once he goes red, he will try to grab you and kill himself to seriously drain your life or kill you. Shoot normal shots at him to get more Smokin Stylish points and defeat him.Use the following trick to defeat a Blitz with Dante. Use the Royal Guard style along with the Gilgamesh gauntlets. While the Blitz is in his yellow electricity shield state, get close to him and press [Melee] + [Style] repeatedly and quickly. You will be performing a punch and canceling it with a Royal Block very quickly. Think of the [Style] move as the attack. Try to constantly use [Melee] + [Style] repeatedly. You will raise the letter grade of your style meter with each hit, and quickly lower the electric shielding. You are basically hitting the shield yourself, then blocking that hit so fast that you cannot see it happen. Again, just press [Melee] + [Style] at the same time. This may be somewhat tricky at first, but eventually becomes easy. Once his shield is lowered, quickly switch to swordmaster style. Use Real Impact uppercut with the Gilgamesh gauntlets at least twice. Perform a Kick 13 if time permits, and/or a Shocking. He will go into his overdriven Red Mode. Quickly switch to Lucifer, and perform Bondage. If done correctly, you should defeat him and get a huge stylish ranking from one Blitz."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Defeating Sparda"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Sparda can be knocked down by using Pandora's PF398 Revenge technique. With Pandora equipped, hold X and make two complete circles with the Left Analog-stick, then shoot at Sparda. It may require two shots, but he will fall as though you used the stationary cannon."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -74,7 +74,7 @@ public class Home extends Fragment {
             ,AssassinCreedBrotherhood
             ,AssassinCreedRevelations
             ,AssassinCreedRogue
-            ,AssassinCreedUnity,BatmanVengeance,Bioshock,Dmcry5;
+            ,AssassinCreedUnity,BatmanVengeance,Bioshock,Dmcry5,Dmcry4,Farcry2;
 
 
         private AdView adview1;
@@ -115,6 +115,8 @@ public class Home extends Fragment {
         AssassinCreedUnity  = v.findViewById(R.id.AssassinCreedUnity);
         BatmanVengeance = v.findViewById(R.id.BatmanVengeance);
         Bioshock = v.findViewById(R.id.Bioshock);
+        Dmcry4 = v.findViewById(R.id.Dmcry4);
+        Farcry2 = v.findViewById(R.id.fc2);
 
 
 // ad view//
@@ -289,7 +291,22 @@ public class Home extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent Dmcry5 = new Intent(getActivity(),Dmcry5.class);
+                getActivity().startActivity(Dmcry5);
+            }
+        });
 
+        Dmcry4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Dmcry4 = new Intent(getActivity(),Dmcry4.class);
+                getActivity().startActivity(Dmcry4);
+            }
+        });
+        Farcry2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Farcry2  =new Intent(getActivity(),Farcry2.class);
+                getActivity().startActivity(Farcry2);
             }
         });
 
