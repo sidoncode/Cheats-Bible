@@ -1,11 +1,11 @@
-package com.example.cheatsbibleforgames;
+package com.cheatsdev.cheatsbibleforgames;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.cheatsdev.cheatsbibleforgames.R;
 
 public class ex extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.cheatsbibleforgames;
+package com.cheatsdev.cheatsbibleforgames;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,12 +9,11 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 
+import com.cheatsdev.cheatsbibleforgames.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.navigation.NavigationView;
-
 
 
 public class MainActivity extends AppCompatActivity {

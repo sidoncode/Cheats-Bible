@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Appintro">
+    tools:context="com.cheatsdev.cheatsbibleforgames.Appintro">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

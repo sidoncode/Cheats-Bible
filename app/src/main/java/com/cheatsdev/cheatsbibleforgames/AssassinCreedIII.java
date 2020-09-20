@@ -1,8 +1,10 @@
-package com.example.cheatsbibleforgames;
+package com.cheatsdev.cheatsbibleforgames;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.cheatsdev.cheatsbibleforgames.R;
 
 public class AssassinCreedIII extends AppCompatActivity {
 

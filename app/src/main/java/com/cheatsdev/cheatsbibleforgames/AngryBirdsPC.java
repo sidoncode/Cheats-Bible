@@ -1,14 +1,16 @@
-package com.example.cheatsbibleforgames;
+package com.cheatsdev.cheatsbibleforgames;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class AlienShooterVengeance extends AppCompatActivity {
+import com.cheatsdev.cheatsbibleforgames.R;
+
+public class AngryBirdsPC extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_alien_shooter_vengeance);
+        setContentView(R.layout.activity_angry_birds_p_c);
     }
 }

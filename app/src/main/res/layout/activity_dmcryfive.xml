@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.cheatsdev.cheatsbibleforgames.AssassinCreedIII"
-    >
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Dmcry5">
+
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -19,7 +20,24 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Infinite Ammo : Collect Pivot - 'Epsilon'"
+                android:text="Short Hair Dante skin"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="At the costume selection screen, hold L1 + L2 + R1 + R2 while selecting the Dante skin to unlock the Short Hair Dante skin."
+                android:textSize="22sp"
+                android:textStyle="normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Dante Must Die mode"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -28,175 +46,196 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Killing Spree (Possible to assassinate enemies during open combat) : Collect Pivot - 'Theta'"
+                android:text="Successfully complete the game on the Son Of Sparda difficulty to unlock the Dante Must Die difficulty. This difficulty is basically Very Hard mode."
                 android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:textAlignment="center"
-                android:text="Made of Steel (Unlimited health) : Collect Pivot - 'Iota'"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:textAlignment="center"
-                android:text="Ninja (Guard detection and investigation is turned off) : Collect Pivot - 'Lambda'"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:textAlignment="center"
-                android:text="Recruit (Infinite Recruit Tokens) : Collect Pivot - 'Omicron'"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:textAlignment="center"
-                android:text="Season Changer (Ability to switch between summer and winter) : Collect Pivot - 'Tau'"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:textAlignment="center"
-                android:text="Semi-Automatic (No reload times) : Collect Pivot - 'Kappa'"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:textAlignment="center"
-                android:text="Sun and Moon (Ability to set day/night) : Collect Pivot - 'Eta'"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:textAlignment="center"
-                android:text="Thunder Kill (Lightning strikes every time you make a kill) : Collect Pivot - 'Upsilon'"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:textAlignment="center"
-                android:text="Weather Man (Ability to set the weather) : Collect Pivot - 'Sigma'"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
+                />
 
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Achilles' Originial Outfit : Complete the Achilles' Painting mission (Unlocked in Manor)"
+                android:text="Heaven Or Hell mode"
                 android:textSize="22sp"
                 android:textStyle="bold" />
             <TextView
-
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
-                android:text="Altair's Outfit : Complete all main missions with all Optional Objectives (Unlocked in Manor)"
+                android:text="From The Deep In Santa Maria Delle Visitazione, in the Assassin's Tomb, you'll come across a large flooded room just before one of the Armor of Altair seals. Pull the lever and peer into the water. Wait a minute or so and you'll see a shadow below. Pull the lever again and peer into the murky depths once more and a tentacle will reach out to grab (and miss) Ezio."
                 android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
+                />
 
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
+                android:text="Heaven or Hell Mode"
                 android:textAlignment="center"
-                android:text="Baltimore Outfit : Start of Sequence 09 (Unlocked in shops)"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:textAlignment="center"
-                android:text="Boston Outfit : Start of Sequence 06 (Unlocked in shops)"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:textAlignment="center"
-                android:text="Captain Kidd's Outfit : Complete the Oak Island Naval Location (Unlocked in Manor)"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:textAlignment="center"
-                android:text="Charleston Outfit : Start of Sequence 06 (Unlocked in shops)"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:textAlignment="center"
-                android:text="Ezio Outfit : Through Uplay (Unlocked in Manor)"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:textAlignment="center"
-                android:text="Jamestown Outfit : Start of Sequence 06 (Unlocked in shops)"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:textAlignment="center"
-                android:text="Kanienkeha:ka Outfit : Collect all Feathers (Unlocked in Manor)"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:textAlignment="center"
-                android:text="New York Outfit : Start of Sequence 09 (Unlocked in shops)"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-            <TextView
-
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-condensed"
-                android:textAlignment="center"
-                android:text="Philidelphia Outfit : Start of Sequence 09 (Unlocked in shops)"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Successfully complete the game on the Dante Must Die difficulty to unlock the Heaven Or Hell difficulty. In Heaven Or Hell mode, all enemies die with one hit, including bosses. However, you also die in one hit. You only get three lives in this mode."
+                android:textAlignment="center"
+                android:textSize="22sp" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Hell Or Hell mode"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Successfully complete the game on the Dante Must Die difficulty to unlock the Hell Or Hell difficulty. In Hell Or Hell mode, you die in one hit, but all enemies have full health bars. Autosaves are disabled and you only get three lives."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Son Of Sparda mode"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Successfully complete the game on the Human or Devil Hunter difficulty to unlock the Son Of Sparda difficulty. This difficulty is basically Hard mode."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Instantly unlock higher difficulties"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Defeat Urizen with Nero in either the Prologue or Mission 8 to get the Well I'll Be Damned trophy and instantly unlock the next highest difficulty (for example, if you were playing on the Son Of Sparda difficulty, the Dante Must Die difficulty will be unlocked)."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Play as Super Dante, Super Nero, and Super V"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Successfully complete the game on the Dante Must Die difficulty to unlock the Super Dante, Super Nero, and Super V costumes, which all give unlimited Devil Trigger."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Super V's EX costume"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="During Nero's fight in the credits, fight well enough to have a Hell Judecca spawn, and then kill it to unlock Super V's EX costume."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Irregular Full Custom skill"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Successfully complete the game on the Son Of Sparda difficulty to unlock the Irregular Full Custom skill for purchase for Dante. This skill allows Dante to equip all of his weapons at once, including all three versions of his sword and both versions of Cavaliere."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Death Gallery"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Successfully complete the game on any difficulty to unlock the Death Gallery. Nico will take photos of all enemies and bosses as they are defeated and add it to the gallery."
+                android:textAlignment="center"
+                android:textSize="22sp" />
         </LinearLayout>
 
     </ScrollView>
+
+
+<!--
+
+
+
+
+
+Successfully complete the game on the Human or Devil Hunter difficulty to unlock the Son Of Sparda difficulty. This difficulty is basically "Hard" mode.
+Instantly unlock higher difficulties
+
+Defeat Urizen with Nero in either the Prologue or Mission 8 to get the "Well I'll Be Damned" trophy and instantly unlock the next highest difficulty (for example, if you were playing on the Son Of Sparda difficulty, the Dante Must Die difficulty will be unlocked).
+Play as Super Dante, Super Nero, and Super V
+
+Successfully complete the game on the Dante Must Die difficulty to unlock the Super Dante, Super Nero, and Super V costumes, which all give unlimited Devil Trigger.
+Super V's EX costume
+
+During Nero's fight in the credits, fight well enough to have a Hell Judecca spawn, and then kill it to unlock Super V's EX costume.
+Irregular Full Custom skill
+
+Successfully complete the game on the Son Of Sparda difficulty to unlock the "Irregular Full Custom" skill for purchase for Dante. This skill allows Dante to equip all of his weapons at once, including all three versions of his sword and both versions of Cavaliere.
+Remove Gold Orb cap
+
+Successfully complete the game on the Son Of Sparda difficulty to remove the cap for buying Red Orbs from the customize screen, allowing you to purchase as many as desired. However, the price for buying them will keep going up until it hits 50,000 red orbs.
+Death Gallery
+
+Successfully complete the game on any difficulty to unlock the Death Gallery. Nico will take photos of all enemies and bosses as they are defeated and add it to the gallery
+-->
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

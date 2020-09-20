@@ -1,6 +1,5 @@
-package com.example.cheatsbibleforgames;
+package com.cheatsdev.cheatsbibleforgames;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
@@ -9,6 +8,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
+import com.cheatsdev.cheatsbibleforgames.R;
 import com.github.paolorotolo.appintro.AppIntro;
 import com.github.paolorotolo.appintro.AppIntroFragment;
 
@@ -33,7 +33,7 @@ public class Appintro extends AppIntro {
 
        // getSupportActionBar().hide();
 
-        addSlide(AppIntroFragment.newInstance("Welcome to the app","first slide",R.drawable.firstcropped,
+        addSlide(AppIntroFragment.newInstance("Welcome to the app","first slide", R.drawable.firstcropped,
                 ContextCompat.getColor(getApplicationContext(),R.color.grey)));
 
 

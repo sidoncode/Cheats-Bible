@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Home"
+    tools:context="com.cheatsdev.cheatsbibleforgames.Home"
     android:background="@color/black"
     >
 
@@ -242,6 +242,23 @@
                     android:layout_width="match_parent"
                     android:layout_height="42dp"
                     android:text="Batman Vengeance"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:fontFamily="serif-monospace"/>
+
+                <TextView
+                    android:id="@+id/Bioshock"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:text="BioShock Infinite"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:fontFamily="serif-monospace"/>
+                <TextView
+                    android:id="@+id/Dmcry5"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:text="Devil May Cry 5"
                     android:textColor="@color/white"
                     android:textSize="32sp"
                     android:fontFamily="serif-monospace"/>

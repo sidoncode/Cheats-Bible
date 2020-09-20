@@ -5,7 +5,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.example.cheatsbibleforgames"
+        applicationId "cheatsdev.cheatsbibleforgames"
         minSdkVersion 23
         targetSdkVersion 29
         versionCode 1
@@ -39,7 +39,8 @@ dependencies {
     implementation 'com.github.AppIntro:AppIntro:4.2.3'
     implementation "androidx.drawerlayout:drawerlayout:1.1.1"
     implementation 'com.google.android.material:material:1.1.0-alpha02'
-
+    androidTestImplementation 'org.testng:testng:6.9.6'
+    androidTestImplementation 'org.testng:testng:6.9.6'
 
 
 }

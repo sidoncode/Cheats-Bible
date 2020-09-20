@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cheatsbibleforgames">
+    package="com.cheatsdev.cheatsbibleforgames">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.INTERNET">
@@ -15,17 +15,17 @@
         android:roundIcon="@drawable/cheats_bible"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AssassinsCreed"></activity>
-        <activity android:name=".AngryBirdsPC" />
-        <activity android:name=".AlienShooterVengeance" />
-        <activity android:name=".Angry_gran_run" />
-        <activity android:name=".AssassinCreedSyndicate"></activity>
+        <activity android:name="com.cheatsdev.cheatsbibleforgames.AssassinsCreed"></activity>
+        <activity android:name="com.cheatsdev.cheatsbibleforgames.AngryBirdsPC" />
+        <activity android:name="com.cheatsdev.cheatsbibleforgames.AlienShooterVengeance" />
+        <activity android:name="com.cheatsdev.cheatsbibleforgames.Angry_gran_run" />
+        <activity android:name="com.cheatsdev.cheatsbibleforgames.AssassinCreedSyndicate"></activity>
 
-        <activity android:name=".AssassinCreedIII">
+        <activity android:name="com.cheatsdev.cheatsbibleforgames.AssassinCreedIII">
 
         </activity>
         <activity
-            android:name=".Appintro"
+            android:name="com.cheatsdev.cheatsbibleforgames.Appintro"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,17 +33,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AssassinCreedII"></activity>
+        <activity android:name="com.cheatsdev.cheatsbibleforgames.AssassinCreedII"></activity>
 
         <!--<activity android:name=".AssassinsCreed"></activity>-->
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.cheatsdev.cheatsbibleforgames.MainActivity"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
-            android:name=".AngryBirds"
-            android:parentActivityName=".Home" />
-        <activity android:name=".ex" />
+            android:name="com.cheatsdev.cheatsbibleforgames.AngryBirds"
+            android:parentActivityName="com.cheatsdev.cheatsbibleforgames.Home" />
+        <activity android:name="com.cheatsdev.cheatsbibleforgames.ex" />
     </application>
 
 </manifest>

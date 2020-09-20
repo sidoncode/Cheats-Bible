@@ -1,16 +1,18 @@
-package com.example.cheatsbibleforgames;
+package com.cheatsdev.cheatsbibleforgames;
 
 import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.cheatsdev.cheatsbibleforgames.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
@@ -72,7 +74,7 @@ public class Home extends Fragment {
             ,AssassinCreedBrotherhood
             ,AssassinCreedRevelations
             ,AssassinCreedRogue
-            ,AssassinCreedUnity,BatmanVengeance;
+            ,AssassinCreedUnity,BatmanVengeance,Bioshock,Dmcry5;
 
 
         private AdView adview1;
@@ -112,12 +114,15 @@ public class Home extends Fragment {
         AssassinCreedRogue = v.findViewById(R.id.AssassinCreedRogue);
         AssassinCreedUnity  = v.findViewById(R.id.AssassinCreedUnity);
         BatmanVengeance = v.findViewById(R.id.BatmanVengeance);
+        Bioshock = v.findViewById(R.id.Bioshock);
+
 
 // ad view//
         //ad id//
         adview1 = v.findViewById(R.id.ad_view1);
         MobileAds.initialize(getActivity(),"ca-app-pub-9094130848994954/4501394393");
         AdRequest adRequest= new AdRequest.Builder().build();
+        Log.i("ad","add");
         adview1.loadAd(adRequest);
 
 
@@ -260,6 +265,30 @@ public class Home extends Fragment {
             public void onClick(View v) {
                 Intent AssassinCreedBrotherhood = new Intent(getActivity(),AssassinCreedBrotherhood.class);
                 getActivity().startActivity(AssassinCreedBrotherhood);
+
+            }
+        });
+        BatmanVengeance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent BatmanVengeance = new Intent(getActivity(),BatmanVengeance.class);
+                getActivity().startActivity(BatmanVengeance);
+
+            }
+        });
+
+        Bioshock.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Bioshock= new Intent(getActivity(),Bioshock.class);
+                getActivity().startActivity(Bioshock);
+            }
+        });
+
+        Dmcry5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent Dmcry5 = new Intent(getActivity(),Dmcry5.class);
 
             }
         });

@@ -1,17 +1,19 @@
-package com.example.cheatsbibleforgames;
+package com.cheatsdev.cheatsbibleforgames;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class AssassinCreedII extends AppCompatActivity {
+import com.cheatsdev.cheatsbibleforgames.R;
+
+
+public class AngryBirds extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_assassincreed2);
+        setContentView(R.layout.activity_angrybirds_mobile);
 
 
     }
 }
-

@@ -1,4 +1,4 @@
-package com.example.cheatsbibleforgames;
+package com.cheatsdev.cheatsbibleforgames;
 
 import org.junit.Test;
 

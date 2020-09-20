@@ -4,21 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".About">
+    tools:context="com.cheatsdev.cheatsbibleforgames.About">
 
     <!-- TODO: Update blank fragment layout -->
 
 
     <TextView
         android:id="@+id/txt2"
-        android:layout_width="115dp"
-        android:layout_height="87dp"
-        android:text="TextView"
+        android:layout_width="355dp"
+        android:layout_height="126dp"
+        android:text="Request Games Here!"
+        android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintHorizontal_bias="0.384"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.132" />
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:layout_width="361dp"
+        android:layout_height="528dp"
+
+        android:text="Mail@ SidDevlops@gmail.com"
+        android:textSize="80dp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="156dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt2"></TextView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

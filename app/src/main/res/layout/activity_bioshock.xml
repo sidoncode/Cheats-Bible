@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Bioshock">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Infinite money and lockpicks"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="In the Return To The Hall Of Heroes chapter (approximately two hours into the game), immediately after exiting the Hall Of Heroes and going down two sets of stairs, possess the Dollar Bill vending machine on the left side, and take the Silver Eagles. Then, go down another set of stairs, and use the right Sky-Line. Jump onto the platform on the right from the Sky-Line, and grab the lockpick on a wooden plank under the stairs. Next, attach to the Sky-Line again, then go down to the next Sky-Line below. Jump onto the platform at the bottom, and go into the nearby Ticket building to the left of the gondola station. Inside, there is a Dollar Bill vending machine, near a Patriot's Pride Confections sign, and three cash registers (two behind a door you must first use a lockpick on) that contain up to 40 Silver Eagles each. Finally, return to the Hall Of Heroes, and refill your salts (if needed) with the Salt machine (can be refilled unlimited times). Go back outside, and the Dollar Bill vending machines can be repossessed and the lockpick will have respawned. The cash registers will also have money in them again. Repeat this process as many times as desired. Note: If you kill the enemies in front of the Hall Of Heroes, they will not respawn, allowing you to keep farming without having to deal with the enemies. You should not need to collect more than 30 lockpicks. Use the gear that makes you 50% faster after jumping from a Sky-Line to make farming faster. There are also a lot of vending machines around the entrance to the Hall Of Heroes, allowing you to level up your magic and weapons."
+                android:textSize="22sp"
+                android:textStyle="normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Infinite gear"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Pieces of gear are randomly dropped in special prize boxes located throughout Columbia. Normally, it will take most of the game to obtain a good amount of gear. However, there is an area earlier in the game where gear will respawn, allowing you to get every piece of random gear early and in one place. Load the Return To The Hall Of Heroes chapter (approximately two hours into the game), and you will appear outside the Hall Of Heroes where Founders and Vox are fighting. Directly behind the starting point are the doors into the Hall Of Heroes. Enter and exiting the Hall Of Heroes will cause any items in the Soldier's Field area to respawn. Go to the plaza, and defeat the Vox/Founders. Use the Sky-Lines to go down to the lower gondola station, and fight through the Founders and Fireman. Inside the entrance hall you will have to fight a Motorized Patriot. Stun the Motorized Patriot, and run to the elevator. Press the button, and you will return to the Soldier's Field boardwalk. Enter the toy store next to the carousel, and interact with the shutter to lift it up. Inside the store, use Shock Jockey on the generator near the locked door. The door will open, and you can collect a random piece of gear. Then, backtrack to the Hall Of Heroes by using the elevator, and riding the Sky-Line back up to the Hall Of Heroes plaza. Go up the stairs, and enter the Hall Of Heroes. Then, go down the hall, and refill any necessary salts. Exit the Hall Of Heroes, and repeat this process as many times as desired."
+                android:textSize="22sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Easy money"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Go to any vending machine, wait three minutes, then select an item from the vending machine you cannot afford. Back out of the vending machine, and Elizabeth will give you money. The amount of money will depend on your progress in the game. You will get more money towards the end of the game compared to the beginning. Repeat this as many times as desired."
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="All collectible locations"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Search the indicated locations to find all 142 collectibles in the game (80 Voxophones, 25 Infusion Upgrades, 37 Telescopes and Kinetoscopes).Obtain all 142 collectibles to get the Eavesdropper, Infused With Greatness, and Sightseer  achievements. Note: You can use chapter select to replay chapters after completing the game so you can pick up missing collectibles. However, there is no collectible counter per chapter/area, and every time you replay a chapter, the collectibles will respawn. Thus, there is no way to tell which ones you already found -- so try to obtain all collectibles in the correct order."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Easy Lost Weekend achievement"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="There are just very few places in the game that offer enough alcohol to get drunk Shantytown is one of them. After you step out of the elevator (in the very beginning of the area), keep going straight until you reach a pub. Inside the pub is a lot of alcohol. Keep picking up alcohol until the screen gets blurry, and then shoot the people sitting at the table to get the Lost Weekend achievement. Note: All kill related achievements can be farmed by restarting the checkpoint. So if do not get five kills, you can try again, and your total kills will add up."
+                android:textAlignment="center"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
