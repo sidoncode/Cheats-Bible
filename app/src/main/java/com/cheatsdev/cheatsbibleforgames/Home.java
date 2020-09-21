@@ -169,7 +169,8 @@ public class Home extends Fragment {
             public void onClick(View v) {
                 Intent AlanWake = new Intent(getActivity(),AlanWake.class);
                 startActivity(AlanWake);
-                Toast.makeText(getActivity(),"Comming Soon...",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getActivity(),"Comming Soon...",Toast.LENGTH_SHORT).show();
+
             }
         });
 
@@ -208,6 +209,8 @@ public class Home extends Fragment {
         ARMAII.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent Arma2 = new Intent(getActivity(),Arma2.class);
+                startActivity(Arma2);
                 Toast.makeText(getActivity(),"Commingsoon",Toast.LENGTH_SHORT).show();
             }
         });
