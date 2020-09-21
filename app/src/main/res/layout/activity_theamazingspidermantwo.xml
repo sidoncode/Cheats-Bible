@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TheAmazingSpiderMan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Easy Aerial Breakt rophy"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Shortly after the The Kingpin Of Crime! mission begins, you will encounter the first armored enemy in the game. You will be given a short text tutorial. To disable an enemy's armor, press Circle repeatedly. Do this until all the yellow heavy armor disappears. Then, attack with a standard Web-Strike (R1) to get the Aerial Break trophy. Note: You do not have to kill the enemy with the Web-Strike"
+                android:textSize="22sp"
+                android:textStyle="normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Easy Friendly Fire trophy"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="During the Carnage Boss fight in the Maximum Carnage mission, you can activate levers around the room to release a burst of fire near them. This must be done in the second half of the Boss fight, after Cletus Kasady turns into Carnage. Simply stand under the levers, wait for Carnage to get close to you, and press L1 to pull them. When Carnage jumps up the wall, activate all the levers around the room and hit him with a Seismic Blast to make him fall down into the fire. Do this three times to get the Friendly Fire trophy."
+                android:textSize="22sp"
+                android:textStyle="normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Easy I'm On A Roll! trophy"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="You can easily achieve a combo streak of 42 during the combat challenges, which can be started at the arcade machine in Stan's Comic Book Store (marked with a blue book-symbol on your map). Simply keep attacking the last remaining enemy of a round with the Web-Strike attack (RB). The Web-Strike does not actually do any damage, allowing you to keep using the move until you have reached the 42 streak combo to get the I'm On A Roll! trophy."
+                android:textSize="22sp"
+                android:textStyle="normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Easy Sneaky trophy"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="There are five Russian hideouts in the game, and they are displayed with a purple eye-symbol on your map. They will appear automatically after making some progress in the story. Go to the southern most hideout, as it is very easy and quick to complete. Once you are inside, web-rush to the ceiling, and you should see the target below (a container with a new suit). Simply defeat the nearby guards, then go to the container to complete the hideout. You must ensure the awareness level (the bar in the top left corner of the screen) remains at zero to get the Sneaky trophy. If you raise your awareness level, pause the game, and choose to restart. The hideouts disappear once you have completed them."
+                android:textSize="22sp"
+                android:textStyle="normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Infinite XP"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+
+                android:text="Load the Raid On Oscorp mission. Proceed through the
+                mission until you leave the air vents, and a cutscene will begin. Hold Select to skip the cutscene.
+                Stealth kill four enemies, and then disposed of the final enemy as desired. After defeating the last enemy, pause the game.
+                Select the Restart option, then choose Yes to restart from the last checkpoint, which is where you leave the air vents.
+                Repeat this process until you reach the desired suit level. Note: The max suit level is 8."
+
+                android:textSize="22sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Unlimited Health"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="LCTRL + F1"
+                android:textSize="22sp"
+                android:textStyle="normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Unlimited Stamina/sprint"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="LCTRL + F2"
+                android:textSize="22sp"
+                android:textStyle="normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="Unlimited battery"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textAlignment="center"
+                android:text="LCTRL + F3"
+                android:textSize="22sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

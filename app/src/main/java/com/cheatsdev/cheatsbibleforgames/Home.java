@@ -116,6 +116,7 @@ public class Home extends Fragment {
         BatmanVengeance = v.findViewById(R.id.BatmanVengeance);
         Bioshock = v.findViewById(R.id.Bioshock);
         Dmcry4 = v.findViewById(R.id.Dmcry4);
+        Dmcry5 = v.findViewById(R.id.Dmcry5);
         Farcry2 = v.findViewById(R.id.fc2);
 
 
@@ -167,8 +168,8 @@ public class Home extends Fragment {
         AlanWake.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent AlanWake = new Intent(getActivity(),AlanWake.class);
-                startActivity(AlanWake);
+                Intent alanWake = new Intent(getActivity(),AlanWake.class);
+                getActivity().startActivity(alanWake);
                 //Toast.makeText(getActivity(),"Comming Soon...",Toast.LENGTH_SHORT).show();
 
             }
@@ -185,7 +186,11 @@ public class Home extends Fragment {
         TheAmazingSpiderMan2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(),"Comming Soon!...",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getActivity(),"Comming Soon!...",Toast.LENGTH_SHORT).show();
+
+                Intent TheAmazingSpiderMantwo = new Intent(getActivity(),TheAmazingSpiderMan.class);
+                startActivity(TheAmazingSpiderMantwo);
+
             }
         });
 

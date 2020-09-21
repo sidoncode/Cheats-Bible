@@ -21,6 +21,21 @@
         <activity android:name="com.cheatsdev.cheatsbibleforgames.Angry_gran_run" />
         <activity android:name="com.cheatsdev.cheatsbibleforgames.AssassinCreedSyndicate"></activity>
 
+        <activity android:name=".AlanWake"></activity>
+        <activity android:name=".Dmcry4"></activity>
+        <activity android:name=".TheAmazingSpiderMan"></activity>
+        <activity android:name=".Farcry2"></activity>
+        <activity android:name=".Bioshock"></activity>
+
+        <activity android:name=".AssassinCreedUnityDeadKings"></activity>
+        <activity android:name=".AssassinCreedBrotherhood"></activity>
+        
+
+        <activity android:name=".Arma2"></activity>
+        <activity android:name=".BatmanVengeance"></activity>
+        <activity android:name=".Dmcry5"></activity>
+        <!-- <activity android:name=".></activity>-->
+
         <activity android:name="com.cheatsdev.cheatsbibleforgames.AssassinCreedIII">
 
         </activity>
