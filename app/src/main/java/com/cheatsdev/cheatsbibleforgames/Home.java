@@ -167,6 +167,8 @@ public class Home extends Fragment {
         AlanWake.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent AlanWake = new Intent(getActivity(),AlanWake.class);
+                startActivity(AlanWake);
                 Toast.makeText(getActivity(),"Comming Soon...",Toast.LENGTH_SHORT).show();
             }
         });
