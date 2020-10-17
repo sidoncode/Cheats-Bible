@@ -29,7 +29,7 @@
 
         <activity android:name=".AssassinCreedUnityDeadKings"></activity>
         <activity android:name=".AssassinCreedBrotherhood"></activity>
-        
+
 
         <activity android:name=".Arma2"></activity>
         <activity android:name=".BatmanVengeance"></activity>
