@@ -34,6 +34,8 @@
         <activity android:name=".Arma2"></activity>
         <activity android:name=".BatmanVengeance"></activity>
         <activity android:name=".Dmcry5"></activity>
+        <activity android:name=".Farcry3"></activity>
+
         <!-- <activity android:name=".></activity>-->
 
         <activity android:name="com.cheatsdev.cheatsbibleforgames.AssassinCreedIII">
