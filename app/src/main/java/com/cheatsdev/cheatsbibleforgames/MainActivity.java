@@ -20,9 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
     private AdView adview1;
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

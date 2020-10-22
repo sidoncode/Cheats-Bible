@@ -3,7 +3,7 @@
 
 
     <item
-        android:icon="@drawable/homeicon"
+        android:icon="@drawable/homeiconn"
         android:id="@+id/item1"
         android:title="Dashboard"
         >
@@ -11,9 +11,9 @@
     </item>
 
     <item
-        android:icon="@drawable/about"
+        android:icon="@drawable/moree"
         android:id="@+id/item2"
-        android:title="Settings">
+        android:title="More">
 
     </item>
 

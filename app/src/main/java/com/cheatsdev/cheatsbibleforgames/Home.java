@@ -118,7 +118,7 @@ public class Home extends Fragment {
         Dmcry4 = v.findViewById(R.id.Dmcry4);
         Dmcry5 = v.findViewById(R.id.Dmcry5);
         Farcry2 = v.findViewById(R.id.fc2);
-        Farcry2 = v.findViewById(R.id.fc3);
+        Farcry3 = v.findViewById(R.id.fc3);
 
 
 // ad view//
@@ -326,7 +326,8 @@ public class Home extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent Farcry3 = new Intent(getActivity(),Farcry3.class);
-                getActivity().startActivity(Farcry3);
+                startActivity(Farcry3);
+
             }
         });
 

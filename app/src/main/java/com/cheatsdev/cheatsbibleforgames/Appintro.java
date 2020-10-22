@@ -33,7 +33,7 @@ public class Appintro extends AppIntro {
 
        // getSupportActionBar().hide();
 
-        addSlide(AppIntroFragment.newInstance("Welcome to the app","first slide", R.drawable.firstcropped,
+        addSlide(AppIntroFragment.newInstance("Welcome to the app","first slide", R.drawable.first,
                 ContextCompat.getColor(getApplicationContext(),R.color.grey)));
 
 
