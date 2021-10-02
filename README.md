@@ -25,5 +25,7 @@
 
 
 
-### PLAY CONSOLE SETTINGS
+## PLAY CONSOLE SETTINGS
+
+### 1) Here the are a good amount of chances that the app will undergo the review phase of the policy violation stating that the app doesnot compiles with the 
 
