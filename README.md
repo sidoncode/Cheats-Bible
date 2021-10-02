@@ -36,3 +36,16 @@
 4) a) - change the ?id = 0 to ?id = 1
 5) 
 
+
+
+After so much exploring I understand how we can prevent webview application to be not suspended by Google.
+
+1st your website should be verified by Google Search console. 2nd Provide advance notice to the Google Play App Review team. LINK
+
+If you done above 2 step, there is strong possibility that your app will accepted by google play store.
+
+3rd If possible you should not just add webview only, try to add first splash screen or use some native android activities. Because Webview is not build for converting website into application. It gives you feature to add website in your android application, so by considering in mind, develop and publish your application.
+
+Good luck
+
+
