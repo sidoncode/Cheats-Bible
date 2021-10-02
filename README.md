@@ -11,9 +11,6 @@
 
 
 
-
-
-
 ### APP SCREENSHOTS
 <p align="center">
   <img src="https://user-images.githubusercontent.com/40432616/92407192-89870f00-f157-11ea-9f9d-5e682751f3c7.jpg" width="256" height="455">
@@ -24,6 +21,18 @@
 
 
 
+## PLAY CONSOLE SETTINGS
 
-### PLAY CONSOLE SETTINGS
+### 1) Here the are a good amount of chances that the app will undergo the review phase of the policy violation stating that the app doesnot compiles with the cheating in the game
+
+## Here How we can avoid that - 
+### We can file an APPEAL to play console guys
+
+1) link to appeal https://support.google.com/googleplay/android-developer/answer/2992033?hl=en
+2) we also will take a look at the apk - uploading platform
+3) we will upload that apk dropbox platfrom and will do  the following changes to it
+
+
+4) a) - change the ?id = 0 to ?id = 1
+5) 
 
